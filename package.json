@@ -1,0 +1,30 @@
+{
+  "name": "point-of-sale",
+  "version": "1.0.0",
+  "description": "Created to learn ReactJS and Foundation CSS Framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon back-end/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juliusvega998/point-of-sale.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juliusvega998/point-of-sale/issues"
+  },
+  "homepage": "https://github.com/juliusvega998/point-of-sale#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "connect-redis": "^3.1.0",
+    "express": "^4.14.0",
+    "express-session": "^1.14.2",
+    "lodash": "^4.17.2",
+    "mysql": "^2.12.0",
+    "path": "^0.12.7",
+    "redis": "^2.6.3"
+  }
+}
